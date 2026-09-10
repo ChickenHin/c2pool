@@ -20,8 +20,8 @@ name: BCH gate G3b — genuine Upgrade9 activation
 on:
   # additive: callable by ci-required.yml aggregator (no push/PR behaviour change)
   workflow_call:
-  push:
-    branches: [master]
+  # push:
+  #   branches: [master]
 
 env:
   # Fail-fast on a stalled git HTTP transfer instead of hanging to the job
