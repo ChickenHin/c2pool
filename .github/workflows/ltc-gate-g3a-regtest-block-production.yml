@@ -22,8 +22,8 @@ name: LTC gate G3a — populated-regtest block-production
 # the runner (integrator's step, not the lane's).
 
 on:
-  push:
-    branches: [master, ltc-doge/ltc-g3a-regtest-gate]
+  # push:
+  #   branches: [master, ltc-doge/ltc-g3a-regtest-gate]
   pull_request:
     branches: [master]
 
