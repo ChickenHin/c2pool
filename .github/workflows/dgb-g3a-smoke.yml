@@ -18,8 +18,8 @@ name: DGB G3a smoke — populated block production
 on:
   # additive: callable by ci-required.yml aggregator (no push/PR behaviour change)
   workflow_call:
-  push:
-    branches: [master]
+  # push:
+  #   branches: [master]
 
 env:
   GIT_HTTP_LOW_SPEED_LIMIT: '1000'
