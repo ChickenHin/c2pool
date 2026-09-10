@@ -19,8 +19,8 @@ name: runner-drop-detector
 # its FIRST attempt (live .run_attempt==1).
 
 on:
-  schedule:
-    - cron: "*/30 * * * *"
+  # schedule:
+  #   - cron: "*/30 * * * *"
   workflow_dispatch:
     inputs:
       window_minutes:
