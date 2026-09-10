@@ -7,11 +7,11 @@
 name: heavy-disk-guard-test
 
 on:
-  push:
-    branches: [master, v37-dev]
-    paths:
-      - .github/workflows/heavy-disk-guard-test.yml
-      - .github/actions/heavy-disk-guard/**
+  # push:
+  #   branches: [master, v37-dev]
+  #   paths:
+  #     - .github/workflows/heavy-disk-guard-test.yml
+  #     - .github/actions/heavy-disk-guard/**
   pull_request:
     paths:
       - .github/workflows/heavy-disk-guard-test.yml
