@@ -30,8 +30,8 @@ name: Release matrix
 # operator action — CI never publishes.
 
 on:
-  push:
-    tags: ['v*']
+  # push:
+  #   tags: ['v*']
   workflow_dispatch:
     inputs:
       version:
