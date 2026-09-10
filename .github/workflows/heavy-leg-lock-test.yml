@@ -6,13 +6,13 @@
 name: heavy-leg-lock-test
 
 on:
-  push:
-    branches: [master, v37-dev]
-    paths:
-      - .github/workflows/build.yml
-      - .github/workflows/codeql-analysis.yml
-      - .github/workflows/heavy-leg-lock-test.yml
-      - .github/actions/heavy-leg-lock/**
+  # push:
+  #   branches: [master, v37-dev]
+  #   paths:
+  #     - .github/workflows/build.yml
+  #     - .github/workflows/codeql-analysis.yml
+  #     - .github/workflows/heavy-leg-lock-test.yml
+  #     - .github/actions/heavy-leg-lock/**
   pull_request:
     paths:
       - .github/workflows/build.yml
