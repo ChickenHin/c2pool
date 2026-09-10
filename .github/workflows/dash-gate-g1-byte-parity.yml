@@ -21,10 +21,10 @@ name: DASH gate G1 — byte-parity KAT
 on:
   # additive: callable by ci-required.yml aggregator (no push/PR behaviour change)
   workflow_call:
-  push:
-    branches: [master, dash-spv-embedded]
-  pull_request:
-    branches: [dash-spv-embedded]
+  # push:
+  #   branches: [master, dash-spv-embedded]
+  # pull_request:
+  #   branches: [dash-spv-embedded]
 
 env:
   # Fail-fast on a stalled git HTTP transfer instead of hanging to the job
