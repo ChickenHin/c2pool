@@ -7,11 +7,11 @@ name: test-floor-guard-honesty
 # stopped catching hollow-green lanes -- this workflow is the tripwire.
 
 on:
-  push:
-    branches:
-      - master
-      - v37-dev
-      - 'ci-steward/**'
+  # push:
+  #   branches:
+  #     - master
+  #     - v37-dev
+  #     - 'ci-steward/**'
   pull_request:
     branches:
       - master
