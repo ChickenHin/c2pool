@@ -14,8 +14,8 @@ name: DOGE AuxPoW smoke — embedded per-coin gtests
 # rollup on the runner.
 
 on:
-  push:
-    branches: [master]
+  # push:
+  #   branches: [master]
   pull_request:
     branches: [master]
 
