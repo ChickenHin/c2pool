@@ -11,11 +11,11 @@ name: libmrr Go tests
 # skipped. Prototypes-only, path-scoped: it adds zero load to any coin lane.
 
 on:
-  push:
-    branches: [master]
-    paths:
-      - "prototypes/libmrr/**"
-      - ".github/workflows/libmrr-go.yml"
+  # push:
+  #   branches: [master]
+  #   paths:
+  #     - "prototypes/libmrr/**"
+  #     - ".github/workflows/libmrr-go.yml"
   pull_request:
     branches: [master]
     paths:
